@@ -2,7 +2,7 @@
 
 P. -J. Lai, Y. -S. Zhan, W. -L. Yeh, M. -L. Ku and C. -M. Yu, "MUSIC-Based Breathing Rate Monitoring Using Wi-Fi CSI," 2022 IEEE 13th Annual Ubiquitous Computing, Electronics & Mobile Communication Conference (UEMCON), New York, NY, NY, USA, 2022, pp. 0380-0384, doi: 10.1109/UEMCON54665.2022.9965699.
 
-
+----------------------------------------------------------------------
 1. CSI收發、檔案存取(terminal運行)
    
 相關檔案：
@@ -15,7 +15,7 @@ log_to_file.c ----------- (檔案存成.dat檔)
 
 log_to_server.c	--------- (檔案傳回發送端)
 
-
+----------------------------------------------------------------------
 2. 檔案讀取、計算過程(matlab運行)
    
 主要內容在 folder: \linux-80211n-csitool-supplementary\matlab\
@@ -30,7 +30,7 @@ file: realtime_csi_music.m (實時化計算)
 
 此檔案需要兩台主機搭配，進行CSI收發的同時，會邊讀取邊計算。
 
------------------------------------------------------------------
+----------------------------------------------------------------------
 
 參考資料：
 https://dhalperi.github.io/linux-80211n-csitool/
