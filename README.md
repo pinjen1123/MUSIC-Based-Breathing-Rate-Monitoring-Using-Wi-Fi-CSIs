@@ -8,8 +8,11 @@ P. -J. Lai, Y. -S. Zhan, W. -L. Yeh, M. -L. Ku and C. -M. Yu, "MUSIC-Based Breat
 相關檔案：
 
 csi_inject.sh ----------- 發射端設定檔
+
 csi_receive.sh ---------- 接收端設定檔
+
 log_to_file.c ----------- (檔案存成.dat檔)
+
 log_to_server.c	--------- (檔案傳回發送端)
 
 
@@ -18,10 +21,13 @@ log_to_server.c	--------- (檔案傳回發送端)
 主要內容在 folder: \linux-80211n-csitool-supplementary\matlab\
 
 file: new_lineartransform_with_music.m (離線計算)
+
 此檔案為直接讀取.dat檔，直接計算
+
 CSI收發的一段時間後，會存為.dat檔，此檔案為讀取.dat後做計算。(可直接run)
 
 file: realtime_csi_music.m (實時化計算)
+
 此檔案需要兩台主機搭配，進行CSI收發的同時，會邊讀取邊計算。
 
 -----------------------------------------------------------------
